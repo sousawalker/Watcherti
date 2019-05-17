@@ -1,0 +1,19 @@
+#dashboard {
+  padding: 25px;
+
+  .dashboard {
+    width: 100%;
+    min-height: 300px;
+    max-height: calc(100vh - 555px);
+    overflow: auto;
+
+    table {
+      width: 100%;
+
+      td {
+        padding: 0 15px;
+        white-space: nowrap;
+      }
+    }
+  }
+}
